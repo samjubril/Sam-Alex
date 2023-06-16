@@ -5,11 +5,73 @@
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-
-  <body>
+  <body>     
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <header id="header">
+      <div id="Home" clsss="logo">
+      <img src="Tech Company Logo.png" id="header-img" alt="Tech Solutions"/>
+      </div>
+           
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#about-us" class="nav-link" target="_blank">Products</a></li>
+          <li><a href="#" class="nav-link" target="_blank">Demo</a></li>
+          <li><a href="#" class="nav-link" target="_blank">Contact</a></li>
+        </ul>
+      </nav>      
+    </header>
 
-    <h1>Hello World, we are software developers!</h1>
+      <section id="Products">
+        <div class="Products" id="basic">
+          <div class="level">Basic Plan</div>
+          <h4>$30/Month</h4>
+          <ol>
+           <li>3 Users</li>
+           <li>Support</li>
+          </ol>
+          <button class="btn">Select</button>
+          </div>
+
+          <div class="Products" id="Pro">
+            <div class="level">Pro Plan</div>
+            <h4>$100/Month</h4>
+            <ol>
+             <li>10 Users</li>
+             <li>Support</li>
+            </ol>
+            <button class="btn">Select</button>
+            </div>
+
+            <div class="Products" id="Enterprise">
+              <div class="level">Enterprise Plan</div>
+              <h4>$300/Month</h4>
+              <ol>
+               <li>50 Users</li>
+               <li>Support</li>
+              </ol>
+              <button class="btn">Select</button>
+              </div>
+      </section>
+    <section id="Demo">      
+        <video id="video" width="320" height="240" controls>
+       <source src="https://creamyanimation.com/product-demo-video-production/" type="video.mp4">
+       </video>
+    </section>
+      
+    
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" placeholder="Enter your email address" required/>
+      <button id="Submit" type="submit">Submit</button>
+    </form>
+
+    <footer>
+      <ul>        
+         <li><a href="#">Contact</a></li>
+      </ul>
+      <span>&copy; Copyright 2023, Built by Sam-Alex</span>
+    </footer>
+       
     <script  src="js/index.js"></script>
   </body>
 </html>
